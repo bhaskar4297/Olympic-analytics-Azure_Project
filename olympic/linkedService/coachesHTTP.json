@@ -1,0 +1,12 @@
+{
+	"name": "coachesHTTP",
+	"properties": {
+		"annotations": [],
+		"type": "HttpServer",
+		"typeProperties": {
+			"url": "https://raw.githubusercontent.com/bhaskar4297/Olympic-analytics-Azure_Project/datafactory/data/Coaches.csv",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Anonymous"
+		}
+	}
+}
